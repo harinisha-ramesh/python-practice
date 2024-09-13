@@ -1,8 +1,8 @@
 #input 
-name = input("Enter your name:")
-print(name)
-age = input(4)
-print(age)
+# name = input("Enter your name:")
+# print(name)
+# age = input(4)
+# print(age)
 
 #VARIABLES
 x=5
@@ -10,7 +10,7 @@ y="hello"
 print(x)
 print(y)
 
-#Variables with same value
+# same Variables with different value
 a=5
 a="bye"
 print(a)
@@ -60,6 +60,13 @@ val1 = "Python"
 val2 = "is a"
 val3 = "Language"
 print(val1,val2,val3)
+
+#global variable
+def myfunc():
+  global x
+  x = "fantastic"
+myfunc()
+print("Python is " + x)
 
 #STRINGS
 #check string
