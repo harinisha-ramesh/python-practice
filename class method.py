@@ -8,7 +8,6 @@ class Car:
     # Class attribute (shared across all instances)
     car_count = 0
 
-    # Instance method: modifies individual instance attributes
     # __init__ is automatically called when a new object is created
     def __init__(self, model):
         self.model = model
