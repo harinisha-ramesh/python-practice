@@ -53,3 +53,31 @@ thisSet = {"apple", "banana", "cherry"}
 itr = ["orange","kiwi"]
 thisSet.update(itr)
 print(thisSet)
+
+#REMOVE SET ITEMS
+
+#remove()
+thisSet = {"apple", "banana", "cherry"}
+thisSet.remove("banana")
+print(thisSet)
+
+#discard()
+thisSet = {"apple", "banana", "cherry"}
+thisSet.discard("banana")
+print(thisSet)
+
+#pop()  ----->  will remove a random item 
+thisSet = {"apple", "banana", "cherry"}
+x = thisSet.pop()
+print(x)
+print(thisSet)
+
+#clear()  ---> clear will empty the set
+thisSet = {"apple", "banana", "cherry"}
+thisSet.clear()
+print(thisSet)
+
+#del ---> will delete the entire set
+thisSet = {"apple", "banana", "cherry"}
+del thisSet
+print(thisSet)
