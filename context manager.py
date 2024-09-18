@@ -4,6 +4,7 @@ class MyContextManager:
         return self
 
     def __exit__(self, exc_type, exc_value, traceback): # Teardown code
+        print("a" + 1)
         print("Exiting the context")
         return False  # or True if you want to suppress exceptions
 
