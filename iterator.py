@@ -33,7 +33,6 @@ class Counter:
         self.current += 1
         return self.current - 1
 counter = Counter(3)
-
 print(next(counter)) 
 print(next(counter))  
 print(next(counter))  
