@@ -1,5 +1,5 @@
-# file opening 
-file = open('sample.txt','r')
+# file opening  
+file = open('sample.txt','r') 
 
 # READ
 # read()---> to read the entire file
