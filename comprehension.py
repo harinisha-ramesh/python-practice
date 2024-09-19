@@ -36,7 +36,7 @@ print(fruit_length)
 #syntax
 # -----------> {key_expression: value_expression for item in iterable if condition}
 
-#List comprehension
+#dictionary comprehension
 fruits = ["apple", "banana", "orange", "cherry", "mango"]
 fruit_length = {fruit: len(fruit) for fruit in fruits}
 
