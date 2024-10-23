@@ -20,4 +20,4 @@ cat = Cat()
 animal_sound(cow)
 animal_sound(cat)
 
-# here animal_sound is a common function that wors with different types of Animal(Cow and Cat)
+# here animal_sound is a common function that works with different types of Animal(Cow and Cat)
